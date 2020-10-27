@@ -6,6 +6,12 @@ valuedict = {x:x for x in range(2,11)}
 valuedict.update({"J":11, "Q":12, "K":13, "A":14})
 suits = ("Clubs", "Diamonds", "Hearts", "Spades")
 
+class Player:
+	def __init__(self, name, score=0, cards=[])
+		self.name = name
+		self.score = score
+		self.cards = cards
+	def 
 class Card:
     def __init__(self, number, suit):
         self.suit = suit
